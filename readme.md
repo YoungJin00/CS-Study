@@ -55,11 +55,11 @@
 |파트|진행상태|학습시간|강의내용|비고|
 | ------ | ------ | ------ | ------ | ------ |
 | | | | [강의 개요](네트워크) | 권장 학습기간: `2주`, 학습분량: 주당 `7.5시간`|
-|1| :white_large_square: |1| [1, 2장 네트워크와 모델](네트워크/1,-2장-네트워크와-모델.md) | |
-|1| :white_large_square: |1| [3장 데이터 통신](네트워크/3장-데이터-통신.md) | |
-|1| :white_large_square: |2| [4장 IP 주소](네트워크/4장-IP-주소.md) | |
-|1| :white_large_square: |1| [5장 ARP 프로토콜](네트워크/5장-ARP-프로토콜.md) | |
-|1| :white_large_square: |2| [6장 IPv4, ICMP 프로토콜](네트워크/6장-IPv4,-ICMP-프로토콜.md) | |
+|1| :white_large_square: |1| [1, 2장 네트워크와 모델](네트워크/1,-2장-네트워크와-모델.md) | 장현욱 |
+|1| :white_large_square: |1| [3장 데이터 통신](네트워크/3장-데이터-통신.md) | 김연빈 |
+|1| :white_large_square: |2| [4장 IP 주소](네트워크/4장-IP-주소.md) | 이시은 |
+|1| :white_large_square: |1| [5장 ARP 프로토콜](네트워크/5장-ARP-프로토콜.md) | 박영진 |
+|1| :white_large_square: |2| [6장 IPv4, ICMP 프로토콜](네트워크/6장-IPv4,-ICMP-프로토콜.md) | 조혜원 |
 |2| :white_large_square: |2| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) | |
 |2| :white_large_square: |1| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) | |
 |2| :white_large_square: |2| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) | |
