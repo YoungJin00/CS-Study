@@ -4,7 +4,9 @@
 - TCP는 UDP보다 안전하지만 느리다 (체감은 어려움)
 - 안정성을 필요로 하지 않는 애플리케이션의 경우 일반적으로 TCP 대신 UDP를 사용함
 - 상대방에게 연결 상태를 계속 물어보는 특징이 있음
+  
   ![image](../assets/이시은/image4.png)
+  
 - Offset: 헤더의 길이를 의미
 - Reserved: 예약된 필드, 사용하지 않음
 - Window: 남아있는 TCP 버퍼 공간이 얼마나 있는지 정보를 담음 (요청 보내는 측에게 어느 정도 크기의 데이터 보내도 되는지 알려줌)
@@ -12,6 +14,7 @@
 ### [ TCP 플래그 (중요)](https://www.youtube.com/watch?v=Ah4-MWISel8&list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&index=22)
 
 ![](../assets/이시은/image5.png)
+
 U A P R S F 만 알면 된다
 
 - 플래그 => 연결 상태, 응답 메시지 등을 나타냄
@@ -45,10 +48,13 @@ TCP를 이용한 데이터 통신을 할 때 프로세스와 프로세스를 연
 2. 서버가 클라이언트의 요청을 받아들이는 패킷을 보냄
 3. 클라이언트는 이를 최종적으로 수락하는 패킷을 보냄
    => 3Way Handshake
+   
    ![](../assets/이시은/image7.png)
 
 - 각 단계에서 SYN, ACK 플래그 숫자 규칙
-  ![](../assets/이시은/image8.png) - 처음에 S: 랜덤값, A: 0 - 두번째 S: 랜덤값, A: 이전 S값 + 1 - 세번째 S: 이전 A, A: 이전 S값 + 1
+  ![](../assets/이시은/image8.png)
+
+  - 처음에 S: 랜덤값, A: 0 - 두번째 S: 랜덤값, A: 이전 S값 + 1 - 세번째 S: 이전 A, A: 이전 S값 + 1
 
 ### [TCP를 이용한 데이터 전송 과정](https://www.youtube.com/watch?v=0vBR666GZ5o&list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&index=23)
 
@@ -64,6 +70,7 @@ TCP를 이용한 데이터 통신을 할 때 프로세스와 프로세스를 연
 ### [TCP의 연결 상태 변화](https://www.youtube.com/watch?v=yY0uQf0BTH8&list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi&index=24)
 
 ![](../assets/이시은/image10.png)
+
 이 중에서 LISTEN, ESTABLISHED만 중요
 
 - LISTEN : 포트 번호를 열어놓고 있는 상태 (서버 쪽에서 프로그램이 사용하고 있는 상태), 클라이언트의 요청을 계속 듣고 있는 상태
@@ -75,10 +82,13 @@ TCP를 이용한 데이터 통신을 할 때 프로세스와 프로세스를 연
 
 1. wireshark를 연다
 2. 현재 통신하고 있는 것을 클릭한다 (ex: Wi-Fi)
+   
    ![](../assets/이시은/image12.png)
+   
 3. 상단 필터에 tcp를 검색한다
 4. 인터넷으로 어딘가 들어가본다, 상단에서 (패킷 캡쳐 정지)를 클릭한다.
 5. 아래와 비슷한거 찾는다
+   
    ![](../assets/이시은/image13.png)
 6. 우클릭, 따라가기 > TCP 스트림 클릭한다 => 통신 흐름이 쭉 나옴
 7. 상단바에서 통계 > 플로 그래프를 클릭한다 (표시 필터로 제한 클릭)
