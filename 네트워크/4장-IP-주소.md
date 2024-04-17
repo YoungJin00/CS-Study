@@ -14,7 +14,7 @@
 
 - powershell에서 Ipconfig 쳐보면 현재 IP 주소를 확인할 수 있음
 
-![](assets/이시은/image1.png)
+![image](../assets/이시은/image1.png)
 
 - IPv4 주소: 현재 PC에 할당된 IP주소
 - 서브넷 마스크: IP주소에 대한 네트워크의 대역을 규정하는 것
@@ -95,11 +95,11 @@ ex) 20대 PC가 있는데 255.255.255.224 (=1111111.11111111.11111111.11100000) 
 - NAT(Netword Address Translation) : 특정 IP를 특정 IP로 변환하는 기술 ⇒ 공유기
 - 집에 인터넷 설치하는건 공유 IP 하나를 돈 주고 사는 개념임
 
-![](assets/이시은/image2.png)
+![image](../assets/이시은/image2.png)
 
 - 실제 인터넷 세상에서는 공인 IP로만 통신 ⇒ 외부 네트워크 대역에서 사설 IP 대역은 보이지 않음
 
-![](assets/이시은/image3.png)
+![image](../assets/이시은/image3.png)
 
 - 개인 PC에서 어떠한 요청을 보내면(사설IP → 공인IP → 바깥 세상) 공유기가 NAT 테이블에 기록
 - 응답이 오면, NAT 테이블을 보고 요청 보냈던 사설 IP로 응답 보내줌

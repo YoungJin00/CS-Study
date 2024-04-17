@@ -13,7 +13,7 @@
 
 ### UDP 프로토콜의 구조
 
-![image](assets/김연빈/image3.png)
+![image](../assets/김연빈/image3.png)
 
 - 포트번호 하나가 2바이트
 - Length: udp프로토콜 헤더+페이로드 포함
