@@ -63,5 +63,5 @@
 |2| :white_check_mark: |2| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) | 장현욱 |
 |2| :white_check_mark: |1| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) | 김연빈 |
 |2| :white_check_mark: |2| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) | 이시은 |
-|2| :white_large_square: |1| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) | 박영진 |
-|2| :white_large_square: |2| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) | 조혜원 |
+|2| :white_check_mark:  |1| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) | 박영진 |
+|2| :white_check_mark:  |2| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) | 조혜원 |
