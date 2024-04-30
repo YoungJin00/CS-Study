@@ -13,8 +13,7 @@
 - Interactive job에게 적절한 response 제공 요망
 
 ### 프로세스의 특성 분류
-이부분은 설명하지 않고 그냥 지나가서 추후 추가할 예정. ppt 글자 잘 안보임..ㅜ
-
+4장 참고.
 - IO-bound process
 - CPU-bound process
 
